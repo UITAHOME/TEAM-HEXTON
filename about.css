@@ -1,0 +1,102 @@
+*{
+font-family: 'Cantarell', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+.container{
+		background-image: linear-gradient( #d279a6,#009688);
+	width: 100%; height: 100vh;
+	background-color: rgba(85, 80, 80, 0.5);
+	background-repeat: no-repeat;	
+}
+.heading{
+	width: 100%;
+	height: 15vh;
+
+}
+.heading h1{
+		align-items: center;
+	text-align: center;
+font-family: 'Cantarell', sans-serif;
+color:  #fff;
+
+}
+.abt{
+	width: 100%;
+	
+	color: #fff;
+letter-spacing: 1px;
+}
+.abt p{
+	left: 6%;
+	top: 35%;
+	position: absolute;
+	font-style: italic;
+	font-size: 25px;
+	
+}
+span{
+	color: #000;
+	position: absolute;
+		font-weight: bold;
+	font-size: 30px;
+	font-style: normal;
+	left: 6%;
+	top: 25%;
+}
+.middle{
+	width: 100%;
+
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+.middle h1{
+	top: 66%;
+left: 40%;
+	position: absolute;
+}
+.middle a{
+	top: 73%;
+	left: 43%;
+	position: absolute;
+	font-size: 45px;
+	text-decoration: none;
+	color: #fff;
+
+}
+.middle a:hover{
+		border: 5px solid #009688;
+	box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+	transition: all 0.3s linear;
+	background: transparent;
+}
+.post{
+	width: 100%;
+	text-align: center;
+justify-content: center;
+align-items: center;
+}
+.post h2{
+		top: 86%;
+	left: 42%;
+	position: absolute;
+}
+.post p{
+	top: 92%;
+	left: 42.5%;
+	position: absolute;
+	letter-spacing: 10px;
+	
+}
+.post p i{
+	color: #fff;
+}
+.post p i:hover{
+color: red;
+	border: 0.8px solid #bfbfbf;
+	box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+	transition: all 0.3s linear;
+	background: transparent;
+	padding-left: 1px;
+}

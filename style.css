@@ -1,0 +1,252 @@
+*{
+	font-family: 'Quicksand', sans-serif;
+	margin: 0;padding: 0;
+
+}
+header{
+	background-image: linear-gradient(#009688,#ffb84d);
+	width: 100%; height: 100vh;
+	background-color: rgba(85, 80, 80, 0.5);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.logo{
+	padding: 5px;
+	margin: 8px;
+		float: left;
+}
+.logo h1{
+	font-size: 80px;
+color: transparent;
+-webkit-text-stroke:1px #fff ;
+}
+.logo2{
+	width: 25%;
+	position: absolute;
+	top: 15%;
+	left: 40%;
+	right: 45%;
+	mix-blend-mode: hard-light;
+	mix-blend-mode: screen;
+	opacity: 1;
+
+}
+
+p{
+	
+	position: absolute;
+	top: 80%;
+	left: 20%;
+	right: 15%;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	font-size: 25px;
+	font-weight: bolder;
+	color: #fff;
+animation: text 1s linear backwards;	
+}
+@keyframes text {
+	0%{
+		transform: translateX(100px);
+		opacity: 0;
+	}
+	100%{
+			transform: translateX(0);
+		opacity: 1;
+	}
+}
+#sidebarmenu{
+	height: 100vh;
+	width: 250px;
+position: fixed;
+left: 85%;
+top: 0;
+right: 0;
+z-index: 3;
+margin: 20px auto;
+
+}
+#sidebarmenu:hover{
+	
+	cursor: pointer;
+}
+nav ul li{
+list-style: none;
+padding: 50px 20px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+font-weight: 600;
+}
+nav ul li a:hover{
+	border: 5px solid #009688;
+	box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+	transition: all 0.3s linear;
+}
+
+#social{
+	width: 8%;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	right: 50%;
+	margin: auto;
+
+}
+#social i{
+	padding: 0 3px;
+	color: #fff;
+	opacity: 1;
+	font-size: 15px;
+}
+#social i:hover{
+	color: #009688;
+	transition: all 0.5s linear ;
+	border: 5px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+@media only screen and (max-width: 700px){
+
+.logo h1{
+padding: 5px;
+	margin: 8px;
+	
+		font-size: 20px;
+	}
+	#sidebarmenu{
+			height: 100vh;
+	width: 150px;
+position: absolute;
+left: 65%;
+top: 20%;
+right: auto;
+z-index: 3;
+margin: 0 0;
+
+	}
+	#sidebarmenu:hover{
+	
+	cursor: pointer;
+}
+
+	nav ul li{
+list-style: none;
+padding: 30px 30px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+font-weight: 700;
+}
+nav ul li a:hover{
+	border: 5px solid #009688;
+	box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+	transition: all 0.3s linear;
+}
+p{
+	
+	position: absolute;
+	top: 85%;
+	left: 5%;
+	right: 10%;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	font-size: 19.5px;
+	font-weight: bolder;
+	color: #fff;
+animation: text 1s linear backwards;	
+}
+.logo2{
+	width: 45%;
+	position: absolute;
+	top: 35%;
+	left: 28%;
+	right: 45%;
+	mix-blend-mode: hard-light;
+	mix-blend-mode: screen;
+	opacity: 1;
+
+}
+#social{
+	width: 8%;
+	position: absolute;
+	top: 95%;
+	left: 0;
+	right: 0;
+
+}
+#social i{
+	padding: 0 0;
+	color: #fff;
+	opacity: 1;
+	font-size: 15px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
